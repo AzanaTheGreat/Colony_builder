@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc main.c -lm -o AzsMG -Wall -lSDL2 -lSDL2_gfx -lSDL2_image -lSDL2_ttf -pthread -g -fsanitize=address,undefined
+./AzsMG
